@@ -1,0 +1,13 @@
+import { Sound } from 'phaser';
+
+enum SoundKeys
+{
+    BACKGROUNDSOUND="BGSOUND",
+    BATDIESOUND="BATDIE",
+    GOBLINDIESOUND="GOBLINDIE",
+    MARTIALDIESOUND="MARTIALDIE",
+    MONSTERDIESOUND="MONSTERDIE",
+    TOWERSOUND="CATAPULT",
+}
+
+export default SoundKeys;
